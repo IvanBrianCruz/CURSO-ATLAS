@@ -43,7 +43,7 @@ const Home = () => {
           En este curso aprenderemos a armar una web estática usando HTML, JAVA y MYSQL workbench 🌐.  
         </p>
         <img
-          src="https://IvanBrianCruz.github.io/ATLAS/img/lenguajes-de-programacion.png" // Reemplaza con la URL de tu imagen
+          src="https://ivanbriancruz.github.io/CURSO-ATLAS/img/lenguajes-de-programacion.png" // Reemplaza con la URL de tu imagen
           alt="Modelo del proyecto a lograr"
           style={{ width: '80%', margin: '1rem auto', borderRadius: '8px', cursor: 'pointer' }}
           onClick={openModal}
@@ -65,7 +65,7 @@ const Home = () => {
           zIndex: 1000,
         }}>
           <img
-            src="https://IvanBrianCruz.github.io/ATLAS/img/eje.png" // Reemplaza con la URL de tu imagen
+            src="https://ivanbriancruz.github.io/CURSO-ATLAS/img/lenguajes-de-programacion.png" // Reemplaza con la URL de tu imagen
             alt="Modelo del proyecto ampliado"
             style={{ width: '90%', maxWidth: '800px', borderRadius: '8px' }}
           />
