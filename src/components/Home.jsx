@@ -40,10 +40,10 @@ const Home = () => {
       }}>
         <h1>👋 ¡Bienvenidos a mi curso de Programación!</h1>
         <p>
-          En este curso aprenderemos a armar una web estática usando HTML, JAVA y Base de datos 🌐.  
+          En este curso aprenderemos a armar una web estática usando HTML, JAVA y MYSQL workbench 🌐.  
         </p>
         <img
-          src="https://IvanBrianCruz.github.io/ATLAS/img/eje.png" // Reemplaza con la URL de tu imagen
+          src="https://IvanBrianCruz.github.io/ATLAS/img/lenguajes-de-programacion.png" // Reemplaza con la URL de tu imagen
           alt="Modelo del proyecto a lograr"
           style={{ width: '80%', margin: '1rem auto', borderRadius: '8px', cursor: 'pointer' }}
           onClick={openModal}
@@ -149,6 +149,32 @@ const Home = () => {
         </ul>
       </section>
 
+
+{/* Sección de video de instalación */}
+<section style={{
+        padding: '2rem',
+        textAlign: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo semitransparente
+        borderRadius: '18px',
+        margin: '0rem auto',
+        maxWidth: '800px',
+      }}>
+        <h2>📹 Cómo Instalar y Configurar Visual estudio code</h2>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube.com/embed/I4PFzH9O0s0?si=OxdC5dVj4nRMwKpp"
+            title="Cómo instalar y configurar Visual Studio Code, Node.js y Git"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+      <br></br>
+      <br></br>
+
       {/* Sección de video de instalación */}
       <section style={{
         padding: '2rem',
@@ -158,12 +184,12 @@ const Home = () => {
         margin: '0rem auto',
         maxWidth: '800px',
       }}>
-        <h2>📹 Cómo Instalar y Configurar Todo para el Proyecto</h2>
+        <h2>📹 Cómo Instalar y Configurar Visual estudio code</h2>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
           <iframe
             width="100%"
             height="450"
-            src="https://www.youtube.com/embed/6pD7_rcFrj8"
+            src="https://www.youtube.com/embed/6pD7_rcFrj8?si=xRix9NLKYztCiSaG"
             title="Cómo instalar y configurar Visual Studio Code, Node.js y Git"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -171,6 +197,57 @@ const Home = () => {
           ></iframe>
         </div>
       </section>
+<br></br>
+<br></br>
+
+      {/* Sección de video de instalación */}
+      <section style={{
+        padding: '2rem',
+        textAlign: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo semitransparente
+        borderRadius: '18px',
+        margin: '0rem auto',
+        maxWidth: '800px',
+      }}>
+        <h2>📹 Cómo Instalar y Configurar JAVA </h2>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube.com/embed/tWN601sU9PM?si=7KEb-iO36DRwlkU2"
+            title="Cómo instalar y configurar Visual Studio Code, Node.js y Git"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+<br></br>
+<br></br>
+      {/* Sección de video de instalación */}
+      <section style={{
+        padding: '2rem',
+        textAlign: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo semitransparente
+        borderRadius: '18px',
+        margin: '0rem auto',
+        maxWidth: '800px',
+      }}>
+        <h2>📹 Cómo Instalar y Configurar Spring Boot en Visual estudio code </h2>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube.com/embed/5WgmWV7zj9o?si=koQEU-V_SZCOavH8"
+            title="Cómo instalar y configurar Visual Studio Code, Node.js y Git"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+      <br></br>
+<br></br>
     </div>
   );
 };

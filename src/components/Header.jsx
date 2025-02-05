@@ -28,7 +28,7 @@ function BasicExample({ setCurrentTab }) {
   `;
 
   const handleLogoClick = () => {
-    window.location.href = 'https://ivanbriancruz.github.io/ATLAS/';
+    window.location.href = 'https://ivanbriancruz.github.io/CURSO-ATLAS/';
   };
 
   return (
@@ -38,7 +38,7 @@ function BasicExample({ setCurrentTab }) {
         <Container>
           <Navbar.Brand onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
             <img
-              src='/img/logo2025.png'
+              src='https://ivanbriancruz.github.io/CURSO-ATLAS/img/logo2025.png'
               alt="Logo Atlas"
               style={logoStyle}
             />
