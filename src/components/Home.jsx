@@ -40,7 +40,7 @@ const Home = () => {
       }}>
         <h1>👋 ¡Bienvenidos a mi curso de Programación!</h1>
         <p>
-          En este curso aprenderemos a armar una web estática usando HTML, JAVA y MYSQL workbench 🌐.  
+          En este curso aprenderemos a armar una web estática usando HTML, JAVA y MYSQL workbench 🌐.
         </p>
         <img
           src="https://ivanbriancruz.github.io/CURSO-ATLAS/img/lenguajes-de-programacion.png" // Reemplaza con la URL de tu imagen
@@ -146,12 +146,30 @@ const Home = () => {
               🧰 JAVA
             </button>
           </li>
+
+
+          <li style={{ margin: '1rem 0' }}>
+            <button
+              onClick={() => window.open('https://cdn.spring.io/spring-tools/release/STS4/4.28.1.RELEASE/dist/e4.34/spring-tool-suite-4-4.28.1.RELEASE-e4.34.0-win32.win32.x86_64.zip', '_blank')}
+              style={{
+                padding: '0.5rem 2rem',
+                borderRadius: '5px',
+                cursor: 'pointer',
+                backgroundColor: '#F05032',
+                color: '#fff',
+                border: 'none',
+                fontSize: '16px',
+              }}
+            >
+              📗 SPRING BOOT
+            </button>
+          </li>
         </ul>
       </section>
 
 
-{/* Sección de video de instalación */}
-<section style={{
+      {/* Sección de video de instalación */}
+      <section style={{
         padding: '2rem',
         textAlign: 'center',
         backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo semitransparente
@@ -197,8 +215,8 @@ const Home = () => {
           ></iframe>
         </div>
       </section>
-<br></br>
-<br></br>
+      <br></br>
+      <br></br>
 
       {/* Sección de video de instalación */}
       <section style={{
@@ -222,8 +240,8 @@ const Home = () => {
           ></iframe>
         </div>
       </section>
-<br></br>
-<br></br>
+      <br></br>
+      <br></br>
       {/* Sección de video de instalación */}
       <section style={{
         padding: '2rem',
@@ -247,7 +265,55 @@ const Home = () => {
         </div>
       </section>
       <br></br>
-<br></br>
+      <br></br>
+       {/* Sección de video de instalación */}
+       <section style={{
+        padding: '2rem',
+        textAlign: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo semitransparente
+        borderRadius: '18px',
+        margin: '0rem auto',
+        maxWidth: '800px',
+      }}>
+        <h2>📹 Cómo Descargar e Instalar Spring Boot for Eclipce (IDE)  </h2>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube.com/embed/KRE8aFIKWEM?si=VFkWj9JIuNRjpQZk"
+            title="Cómo instalar y configurar Visual Studio Code, Node.js y Git"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+      <br></br>
+      <br></br>
+       {/* Sección de video de instalación */}
+       <section style={{
+        padding: '2rem',
+        textAlign: 'center',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)', // Fondo semitransparente
+        borderRadius: '18px',
+        margin: '0rem auto',
+        maxWidth: '800px',
+      }}>
+        <h2>📹 Cómo crear una cuente en GitHub </h2>
+        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <iframe
+            width="100%"
+            height="450"
+            src="https://www.youtube.com/embed/rWGUUEeuEx0?si=dCA45uI7aVNiUUFK"
+            title="Cómo instalar y configurar Visual Studio Code, Node.js y Git"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
+      </section>
+      <br></br>
+      <br></br>
     </div>
   );
 };
