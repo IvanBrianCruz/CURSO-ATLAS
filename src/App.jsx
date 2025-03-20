@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Videos from './components/Videos';
+import Projectos from './components/Projectos';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 // index.jsx o App.jsx
@@ -19,6 +20,9 @@ function App() {
         return <Home />;
       case 'Videos':
         return <Videos />;
+      case 'Projectos':
+        return <Projectos />;
+
       default:
         return <Home />;
     }

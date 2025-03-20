@@ -48,6 +48,7 @@ function BasicExample({ setCurrentTab }) {
             <Nav className="me-auto">
               <Nav.Link onClick={() => setCurrentTab('Home')} className="text-white">INICIO</Nav.Link>
               <Nav.Link onClick={() => setCurrentTab('Videos')} className="text-white">VIDEOS</Nav.Link>
+              <Nav.Link onClick={() => setCurrentTab('Projectos')} className="text-white">PROYECTOS</Nav.Link>
               {/* Descomentar para agregar más opciones en el futuro */}
               {/* <Nav.Link onClick={() => setCurrentTab('Contacto')} className="text-white">CONTACTO</Nav.Link> */}
               {/* <Nav.Link onClick={() => setCurrentTab('Nosotros')} className="text-white">NOSOTROS</Nav.Link> */}
