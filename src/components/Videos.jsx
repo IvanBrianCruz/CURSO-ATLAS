@@ -2,8 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Videos = () => {
-  const videoList = [
-    "https://www.youtube.com/embed/P4FD43ff4I0?si=HPer-_pKEvMe92A5",
+  /* Lista de URLs de videos de YouTube 
+   "https://www.youtube.com/embed/P4FD43ff4I0?si=HPer-_pKEvMe92A5",
     "https://www.youtube.com/embed/09cD8uqnF3Y?si=jHIuiAFfS3VBX-XP",
     "https://www.youtube.com/embed/FiILs_eLsKY?si=fq3JbRxBYoJZmpjX",
     "https://www.youtube.com/embed/VXidhfhU1FM?si=AX8CobHcemUL_AkU",
@@ -20,6 +20,9 @@ const Videos = () => {
     "https://www.youtube.com/embed/XvKB6cpeuAM?si=LumKwwcUgMW2ZgYL",
     "https://www.youtube.com/embed/KDg_0pIsECw?si=a5ZKfgvrbZNVgau3",
     "https://www.youtube.com/embed/Hx7damnDuwY?si=GnX4vHcD3cCXCsAa",
+    */
+  const videoList = [
+   "https://www.youtube.com/embed/tJzH0XO8Hjs?si=gVN4WrcKlbUKs5y5" 
   ];
 
   return (
