@@ -22,7 +22,8 @@ const Videos = () => {
     "https://www.youtube.com/embed/Hx7damnDuwY?si=GnX4vHcD3cCXCsAa",
     */
   const videoList = [
-   "https://www.youtube.com/embed/tJzH0XO8Hjs?si=gVN4WrcKlbUKs5y5" 
+   "https://www.youtube.com/embed/tJzH0XO8Hjs?si=gVN4WrcKlbUKs5y5",
+   "https://www.youtube.com/embed/E5jYnF1Xv1g?si=Qx6aBbf0A3fxrj46"
   ];
 
   return (
